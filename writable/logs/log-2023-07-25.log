@@ -1,0 +1,443 @@
+CRITICAL - 2023-07-25 07:02:43 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:02:57 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:07:04 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:07:55 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:08:27 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:12:10 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 07:13:46 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 09:40:53 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 09:41:44 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:08:48 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:10:22 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:22:28 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:23:17 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:23:34 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:25:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:25:41 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:26:27 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:29:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:29:33 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:37:22 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:37:33 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:40:40 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:40:40 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:41:55 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:25 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:41 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:42 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:42:42 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:13 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:45 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:45 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:54 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:55 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:45:57 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:16 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:20 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:24 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:30 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:34 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:46:38 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:53:46 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:53:53 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 10:54:10 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 11:26:00 --> Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH/Models/UserModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 11:37:10 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-25 11:38:09 --> mysqli_sql_exception: Unknown column 'sg_users.id' in 'where clause' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(943): CodeIgniter\Model->doUpdate()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(756): CodeIgniter\BaseModel->update()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Users.php(104): CodeIgniter\Model->update()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Users->reset_pass()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-25 11:38:09 --> Unknown column 'sg_users.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(943): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/Users.php(104): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->reset_pass()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:39:02 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:39:11 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:41:26 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:41:27 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:42:29 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:46:03 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:46:28 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:46:29 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:46:38 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:46:53 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:47:42 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:48:15 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:48:28 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:48:42 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:48:54 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:48:58 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:49:10 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:50:14 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:50:14 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:51:01 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:51:01 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:51:47 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:52:41 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:53:16 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:53:39 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:56:40 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:59:20 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 11:59:50 --> Post does not exist for specified id
+in APPPATH/Models/PostModel.php on line 88.
+ 1 APPPATH/Controllers/Users.php(25): App\Models\PostModel->get_post()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:02:40 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:04:42 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:05:55 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:07:23 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:07:42 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 13:11:05 --> Cannot access offset of type string on string
+in APPPATH/Models/UserModel.php on line 99.
+ 1 APPPATH/Controllers/Users.php(332): App\Models\UserModel->update1()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()

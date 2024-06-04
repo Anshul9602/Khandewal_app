@@ -1,0 +1,313 @@
+CRITICAL - 2024-05-07 05:35:02 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 35
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(35): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(13): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 05:35:48 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 36
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(36): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 05:36:30 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 36
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(36): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 05:37:19 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 35
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(35): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 05:39:08 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 47
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(47): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 05:39:47 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 47
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(47): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 07:25:42 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 47
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(47): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 08:28:13 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 45
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(45): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 09:07:38 --> CodeIgniter\Database\BaseBuilder::selectCount(): Argument #1 ($select) must be of type string, array given, called in C:\xampp\htdocs\mojmain\app\Models\BasicModel.php on line 45
+in SYSTEMPATH\Database\BaseBuilder.php on line 480.
+ 1 APPPATH\Models\BasicModel.php(45): CodeIgniter\Database\BaseBuilder->selectCount([...])
+ 2 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getUserProfileEmptyFields('10')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:55:04 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:55:04 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `user_id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:55:30 --> mysqli_sql_exception: Unknown column 'work_ex' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:55:30 --> Unknown column 'work_ex' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:55:52 --> mysqli_sql_exception: Unknown column 'work_ex' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:55:52 --> Unknown column 'work_ex' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:56:01 --> mysqli_sql_exception: Unknown column 'work_ex' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:56:01 --> Unknown column 'work_ex' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty, SUM(CASE WHEN updated_at IS NULL OR updated_at = "" THEN 1 ELSE 0 END) AS updated_at_empty, SUM(CASE WHEN last_active IS NULL OR last_active = "" THEN 1 ELSE 0 END) AS last_active_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:56:50 --> mysqli_sql_exception: Unknown column 'work_ex' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, SU...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, SU...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, SU...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, SU...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:56:50 --> Unknown column 'work_ex' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, SUM(CASE WHEN mobile_number IS NULL OR mobile_number = "" THEN 1 ELSE 0 END) AS mobile_number_empty, SUM(CASE WHEN points IS NULL THEN 1 ELSE 0 END) AS points_empty, SUM(CASE WHEN work_ex IS NULL THEN 1 ELSE 0 END) AS work_ex_empty, SUM(CASE WHEN status IS NULL OR status = "" THEN 1 ELSE 0 END) AS status_empty
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+ERROR - 2024-05-07 09:59:37 --> mysqli_sql_exception: Unknown column 'gr_degree' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, SU...', 0)
+#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, SU...')
+#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, SU...')
+#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, SU...', Array, false)
+#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(38): App\Models\BasicModel->getUserEduEmptyFields('10')
+#6 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-05-07 09:59:37 --> Unknown column 'gr_degree' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, SUM(CASE WHEN ten_th IS NULL OR ten_th = "" THEN 1 ELSE 0 END) AS ten_th_empty, SUM(CASE WHEN ten_school IS NULL OR ten_school = "" THEN 1 ELSE 0 END) AS ten_school_empty, SUM(CASE WHEN ten_year IS NULL OR ten_year = "" THEN 1 ELSE 0 END) AS ten_year_empty, SUM(CASE WHEN to_th IS NULL OR to_th = "" THEN 1 ELSE 0 END) AS to_th_empty, SUM(CASE WHEN to_th_school IS NULL OR to_th_school = "" THEN 1 ELSE 0 END) AS to_th_school_empty, SUM(CASE WHEN to_th_year IS NULL OR to_th_year = "" THEN 1 ELSE 0 END) AS to_th_year_empty, SUM(CASE WHEN gra_dip IS NULL OR gra_dip = "" THEN 1 ELSE 0 END) AS gra_dip_empty, SUM(CASE WHEN gr_degree IS NULL OR gr_degree = "" THEN 1 ELSE 0 END) AS gr_degree_empty, SUM(CASE WHEN gr_university IS NULL OR gr_university = "" THEN 1 ELSE 0 END) AS gr_university_empty, SUM(CASE WHEN gr_year IS NULL OR gr_year = "" THEN 1 ELSE 0 END) AS gr_year_empty, SUM(CASE WHEN post_gra IS NULL OR post_gra = "" THEN 1 ELSE 0 END) AS post_gra_empty, SUM(CASE WHEN pg_degree IS NULL OR pg_degree = "" THEN 1 ELSE 0 END) AS pg_degree_empty, SUM(CASE WHEN pg_university IS NULL OR pg_university = "" THEN 1 ELSE 0 END) AS pg_university_empty, SUM(CASE WHEN pg_year IS NULL OR pg_year = "" THEN 1 ELSE 0 END) AS pg_year_empty, SUM(CASE WHEN doc IS NULL OR doc = "" THEN 1 ELSE 0 END) AS doc_empty, SUM(CASE WHEN doc_degree IS NULL OR doc_degree = "" THEN 1 ELSE 0 END) AS doc_degree_empty, SUM(CASE WHEN doc_university IS NULL OR doc_university = "" THEN 1 ELSE 0 END) AS doc_university_empty, SUM(CASE WHEN doc_year IS NULL OR doc_year = "" THEN 1 ELSE 0 END) AS doc_year_empty, SUM(CASE WHEN hotel_de IS NULL OR hotel_de = "" THEN 1 ELSE 0 END) AS hotel_de_empty, SUM(CASE WHEN h_college IS NULL OR h_college = "" THEN 1 ELSE 0 END) AS h_college_empty, SUM(CASE WHEN h_year IS NULL OR h_year = "" THEN 1 ELSE 0 END) AS h_year_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty
+FROM `user_education`
+WHERE `user_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, SUM(CASE WHEN ten_th IS NULL OR ten_th = "" THEN 1 ELSE 0 END) AS ten_th_empty, SUM(CASE WHEN ten_school IS NULL OR ten_school = "" THEN 1 ELSE 0 END) AS ten_school_empty, SUM(CASE WHEN ten_year IS NULL OR ten_year = "" THEN 1 ELSE 0 END) AS ten_year_empty, SUM(CASE WHEN to_th IS NULL OR to_th = "" THEN 1 ELSE 0 END) AS to_th_empty, SUM(CASE WHEN to_th_school IS NULL OR to_th_school = "" THEN 1 ELSE 0 END) AS to_th_school_empty, SUM(CASE WHEN to_th_year IS NULL OR to_th_year = "" THEN 1 ELSE 0 END) AS to_th_year_empty, SUM(CASE WHEN gra_dip IS NULL OR gra_dip = "" THEN 1 ELSE 0 END) AS gra_dip_empty, SUM(CASE WHEN gr_degree IS NULL OR gr_degree = "" THEN 1 ELSE 0 END) AS gr_degree_empty, SUM(CASE WHEN gr_university IS NULL OR gr_university = "" THEN 1 ELSE 0 END) AS gr_university_empty, SUM(CASE WHEN gr_year IS NULL OR gr_year = "" THEN 1 ELSE 0 END) AS gr_year_empty, SUM(CASE WHEN post_gra IS NULL OR post_gra = "" THEN 1 ELSE 0 END) AS post_gra_empty, SUM(CASE WHEN pg_degree IS NULL OR pg_degree = "" THEN 1 ELSE 0 END) AS pg_degree_empty, SUM(CASE WHEN pg_university IS NULL OR pg_university = "" THEN 1 ELSE 0 END) AS pg_university_empty, SUM(CASE WHEN pg_year IS NULL OR pg_year = "" THEN 1 ELSE 0 END) AS pg_year_empty, SUM(CASE WHEN doc IS NULL OR doc = "" THEN 1 ELSE 0 END) AS doc_empty, SUM(CASE WHEN doc_degree IS NULL OR doc_degree = "" THEN 1 ELSE 0 END) AS doc_degree_empty, SUM(CASE WHEN doc_university IS NULL OR doc_university = "" THEN 1 ELSE 0 END) AS doc_university_empty, SUM(CASE WHEN doc_year IS NULL OR doc_year = "" THEN 1 ELSE 0 END) AS doc_year_empty, SUM(CASE WHEN hotel_de IS NULL OR hotel_de = "" THEN 1 ELSE 0 END) AS hotel_de_empty, SUM(CASE WHEN h_college IS NULL OR h_college = "" THEN 1 ELSE 0 END) AS h_college_empty, SUM(CASE WHEN h_year IS NULL OR h_year = "" THEN 1 ELSE 0 END) AS h_year_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty
+FROM `user_education`
+WHERE `user_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, SUM(CASE WHEN ten_th IS NULL OR ten_th = "" THEN 1 ELSE 0 END) AS ten_th_empty, SUM(CASE WHEN ten_school IS NULL OR ten_school = "" THEN 1 ELSE 0 END) AS ten_school_empty, SUM(CASE WHEN ten_year IS NULL OR ten_year = "" THEN 1 ELSE 0 END) AS ten_year_empty, SUM(CASE WHEN to_th IS NULL OR to_th = "" THEN 1 ELSE 0 END) AS to_th_empty, SUM(CASE WHEN to_th_school IS NULL OR to_th_school = "" THEN 1 ELSE 0 END) AS to_th_school_empty, SUM(CASE WHEN to_th_year IS NULL OR to_th_year = "" THEN 1 ELSE 0 END) AS to_th_year_empty, SUM(CASE WHEN gra_dip IS NULL OR gra_dip = "" THEN 1 ELSE 0 END) AS gra_dip_empty, SUM(CASE WHEN gr_degree IS NULL OR gr_degree = "" THEN 1 ELSE 0 END) AS gr_degree_empty, SUM(CASE WHEN gr_university IS NULL OR gr_university = "" THEN 1 ELSE 0 END) AS gr_university_empty, SUM(CASE WHEN gr_year IS NULL OR gr_year = "" THEN 1 ELSE 0 END) AS gr_year_empty, SUM(CASE WHEN post_gra IS NULL OR post_gra = "" THEN 1 ELSE 0 END) AS post_gra_empty, SUM(CASE WHEN pg_degree IS NULL OR pg_degree = "" THEN 1 ELSE 0 END) AS pg_degree_empty, SUM(CASE WHEN pg_university IS NULL OR pg_university = "" THEN 1 ELSE 0 END) AS pg_university_empty, SUM(CASE WHEN pg_year IS NULL OR pg_year = "" THEN 1 ELSE 0 END) AS pg_year_empty, SUM(CASE WHEN doc IS NULL OR doc = "" THEN 1 ELSE 0 END) AS doc_empty, SUM(CASE WHEN doc_degree IS NULL OR doc_degree = "" THEN 1 ELSE 0 END) AS doc_degree_empty, SUM(CASE WHEN doc_university IS NULL OR doc_university = "" THEN 1 ELSE 0 END) AS doc_university_empty, SUM(CASE WHEN doc_year IS NULL OR doc_year = "" THEN 1 ELSE 0 END) AS doc_year_empty, SUM(CASE WHEN hotel_de IS NULL OR hotel_de = "" THEN 1 ELSE 0 END) AS hotel_de_empty, SUM(CASE WHEN h_college IS NULL OR h_college = "" THEN 1 ELSE 0 END) AS h_college_empty, SUM(CASE WHEN h_year IS NULL OR h_year = "" THEN 1 ELSE 0 END) AS h_year_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty
+FROM `user_education`
+WHERE `user_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, SUM(CASE WHEN ten_th IS NULL OR ten_th = "" THEN 1 ELSE 0 END) AS ten_th_empty, SUM(CASE WHEN ten_school IS NULL OR ten_school = "" THEN 1 ELSE 0 END) AS ten_school_empty, SUM(CASE WHEN ten_year IS NULL OR ten_year = "" THEN 1 ELSE 0 END) AS ten_year_empty, SUM(CASE WHEN to_th IS NULL OR to_th = "" THEN 1 ELSE 0 END) AS to_th_empty, SUM(CASE WHEN to_th_school IS NULL OR to_th_school = "" THEN 1 ELSE 0 END) AS to_th_school_empty, SUM(CASE WHEN to_th_year IS NULL OR to_th_year = "" THEN 1 ELSE 0 END) AS to_th_year_empty, SUM(CASE WHEN gra_dip IS NULL OR gra_dip = "" THEN 1 ELSE 0 END) AS gra_dip_empty, SUM(CASE WHEN gr_degree IS NULL OR gr_degree = "" THEN 1 ELSE 0 END) AS gr_degree_empty, SUM(CASE WHEN gr_university IS NULL OR gr_university = "" THEN 1 ELSE 0 END) AS gr_university_empty, SUM(CASE WHEN gr_year IS NULL OR gr_year = "" THEN 1 ELSE 0 END) AS gr_year_empty, SUM(CASE WHEN post_gra IS NULL OR post_gra = "" THEN 1 ELSE 0 END) AS post_gra_empty, SUM(CASE WHEN pg_degree IS NULL OR pg_degree = "" THEN 1 ELSE 0 END) AS pg_degree_empty, SUM(CASE WHEN pg_university IS NULL OR pg_university = "" THEN 1 ELSE 0 END) AS pg_university_empty, SUM(CASE WHEN pg_year IS NULL OR pg_year = "" THEN 1 ELSE 0 END) AS pg_year_empty, SUM(CASE WHEN doc IS NULL OR doc = "" THEN 1 ELSE 0 END) AS doc_empty, SUM(CASE WHEN doc_degree IS NULL OR doc_degree = "" THEN 1 ELSE 0 END) AS doc_degree_empty, SUM(CASE WHEN doc_university IS NULL OR doc_university = "" THEN 1 ELSE 0 END) AS doc_university_empty, SUM(CASE WHEN doc_year IS NULL OR doc_year = "" THEN 1 ELSE 0 END) AS doc_year_empty, SUM(CASE WHEN hotel_de IS NULL OR hotel_de = "" THEN 1 ELSE 0 END) AS hotel_de_empty, SUM(CASE WHEN h_college IS NULL OR h_college = "" THEN 1 ELSE 0 END) AS h_college_empty, SUM(CASE WHEN h_year IS NULL OR h_year = "" THEN 1 ELSE 0 END) AS h_year_empty, SUM(CASE WHEN created_at IS NULL OR created_at = "" THEN 1 ELSE 0 END) AS created_at_empty
+FROM `user_education`
+WHERE `user_id` = :user_id:', [...], false)
+ 5 APPPATH\Models\BasicModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEduEmptyFields('10')
+ 7 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('10')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('10')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-07 10:06:54 --> Undefined variable $
+in APPPATH\Models\BasicModel.php on line 98.
+ 1 APPPATH\Models\BasicModel.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $', 'C:\\xampp\\htdocs\\mojmain\\app\\Models\\BasicModel.php', 98)
+ 2 APPPATH\Models\BasicModel.php(38): App\Models\BasicModel->getUserEduEmptyFields('14')
+ 3 APPPATH\Controllers\Basic.php(16): App\Models\BasicModel->getEmptyFields('14')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->getUserProfileEmptyFields('14')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')

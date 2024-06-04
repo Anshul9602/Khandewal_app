@@ -1,0 +1,520 @@
+ERROR - 2023-07-21 05:56:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 05:56:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:24:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:24:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:25:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:25:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:25:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:25:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:25:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:25:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:30:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:30:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:30:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:30:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:30:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:30:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:40:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:40:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:40:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:40:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-21 06:40:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /home/admin/web/simplygrateful.me/public_html/apis/app/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+#6 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+#7 /home/admin/web/simplygrateful.me/public_html/apis/app/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+#8 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->login()
+#9 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/admin/web/simplygrateful.me/public_html/apis/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/admin/web/simplygrateful.me/public_html/apis/index.php(73): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-21 06:40:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(50): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/BaseController.php(91): App\Models\UserModel->findUserByUserName()
+ 7 APPPATH/Controllers/Auth.php(71): App\Controllers\BaseController->validateRequest()
+ 8 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->login()
+ 9 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-21 07:01:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 18.
+ 1 APPPATH/Controllers/Users.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-21 07:01:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Users.php on line 18.
+ 1 APPPATH/Controllers/Users.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(73): CodeIgniter\CodeIgniter->run()
