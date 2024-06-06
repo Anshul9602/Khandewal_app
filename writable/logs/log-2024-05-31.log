@@ -1,0 +1,367 @@
+ERROR - 2024-05-31 09:41:47 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 09:41:47 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 09:46:46 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 09:46:46 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 10:17:41 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 10:17:41 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 10:30:46 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(219): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 10:30:46 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(219): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 06:19:24 --> Undefined array key "off_salery"
+in APPPATH/Models/JobModel.php on line 146.
+ 1 APPPATH/Models/JobModel.php(146): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Job.php(45): App\Models\JobModel->save()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Job->store()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:07:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(518): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(341): App\Models\UserModel->update_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 13:07:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(518): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(341): App\Models\UserModel->update_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:08:49 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 13:08:49 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:09:25 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 13:09:25 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:13:07 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 13:13:07 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(342): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:17:15 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(343): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 13:17:15 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(343): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 13:17:56 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(343): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 13:17:56 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(343): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->Huser_update()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 14:35:03 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(219): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 14:35:03 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(219): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 14:36:09 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'on clause' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(219): App\Models\UserModel->getHUserData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-31 14:36:09 --> Unknown column 'users.user_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/UserModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Auth.php(219): App\Models\UserModel->getHUserData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 19:27:36 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 19:27:36 --> Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 19:27:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 19:27:44 --> Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 19:27:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-31 19:27:55 --> Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`job_pref_user`, CONSTRAINT `job_pref_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/Job_prefModel.php(294): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Job_pref.php(206): App\Models\Job_prefModel->user_save()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

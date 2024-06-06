@@ -46,52 +46,18 @@ class Home extends BaseController
             return redirect()->to('/');
         }
 
-        // 'login' session variable is set to 1, so continue to load the home page
-        // You can add any other logic here if needed
-
         $model = new UserModel();
-        // $data['userCount'] = $model->getUserCount();
-        // $data['users'] = $model->getAllUserData();
 
+        $data['users'] = $model->getAllUserData();
+        //    print_r($data['users'][0]);
+        //     die();
+        // echo "test";
+        // die();
         echo view('header');
-        echo view('Hotel_list');
+        echo view('Hotel_list',$data);
         echo view('footer');
     }
-    public function job_list()
-    {
-
-       
-        $isLoggedIn = $this->session->get('login');
-
-        // If 'login' variable is not set or is not equal to 1, redirect to the login page
-        if (!$isLoggedIn || $isLoggedIn != 1) {
-            return redirect()->to('/');
-        }
-
-        echo view('header');
-        echo view('job_list');
-        echo view('footer');
-    }
-    public function agent_list()
-    {
-        $isLoggedIn = $this->session->get('login');
-
-        // If 'login' variable is not set or is not equal to 1, redirect to the login page
-        if (!$isLoggedIn || $isLoggedIn != 1) {
-            return redirect()->to('/');
-        }
-
-        // 'login' session variable is set to 1, so continue to load the home page
-        // You can add any other logic here if needed
-
-        $model = new UserModel();
-        // $data['userCount'] = $model->getUserCount();
-        // $data['users'] = $model->getAllUserData();
-
-        echo view('header');
-        echo view('agent_list');
-        echo view('footer');
-    }
+   
     public function user_list()
     {
         $isLoggedIn = $this->session->get('login');
@@ -107,15 +73,9 @@ class Home extends BaseController
         $model = new UserModel();
 
         $data['users'] = $model->getAllUserData();
-        //    print_r($data['users']);
-        //    if (!$data['users']) {
-        //     $data['users'] = null;
-        //    }
-            // if(!$data['Users']){
-            //     echo "test";
-            //     $data['users']= '';
-            // }
-    
+        //    print_r($data['users'][0]);
+        //     die();
+        // echo "test";
         // die();
         echo view('header');
 

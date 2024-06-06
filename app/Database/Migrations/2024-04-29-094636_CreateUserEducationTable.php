@@ -11,107 +11,26 @@ class CreateUsersEducationTable extends Migration
         $this->forge->addField([
             'id' => [
                 'type' => 'INT',
-                
+                'constraint' => 5,
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
             'user_id' => [
                 'type' => 'INT',
-                
+                'constraint' => 5,
                 'unsigned' => true,
             ],
-            '10th' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            '10th_school' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            '10th_year' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            '12th' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            '12th_school' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            '12th_year' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'gra_dip' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-
             'degree' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
-                'null' => true,
             ],
             'university' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
-                'null' => true,
             ],
             'year' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'post_gra' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-
-            'pg_degree' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'pg_university' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'pg_year' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'doc' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-
-            'doc_degree' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'doc_university' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
-            ],
-            'doc_year' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
-                'null' => true,
+                'type' => 'INT',
+                'constraint' => 4,
             ],
             'created_at' => [
                 'type' => 'VARCHAR',

@@ -1,138 +1,33 @@
-ERROR - 2024-05-04 18:21:03 --> mysqli_sql_exception: Unknown column 'all_states*' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_sta...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_sta...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_sta...')
-#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_sta...', Array, false)
-#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(73): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->get_state()
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
-#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-CRITICAL - 2024-05-04 18:21:03 --> Unknown column 'all_states*' in 'field list'
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_states*`
-FROM `all_states`', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_states*`
-FROM `all_states`')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_states*`
-FROM `all_states`')
- 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_states*`
-FROM `all_states`', [], false)
- 5 APPPATH\Models\BasicModel.php(73): CodeIgniter\Database\BaseBuilder->get()
- 6 APPPATH\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
- 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->get_state()
- 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
- 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-04 18:22:55 --> mysqli_sql_exception: Unknown column 'all_states*' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_sta...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_sta...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_sta...')
-#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_sta...', Array, false)
-#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(73): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->get_state()
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
-#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-CRITICAL - 2024-05-04 18:22:55 --> Unknown column 'all_states*' in 'field list'
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_states*`
-FROM `all_states`', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_states*`
-FROM `all_states`')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_states*`
-FROM `all_states`')
- 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_states*`
-FROM `all_states`', [], false)
- 5 APPPATH\Models\BasicModel.php(73): CodeIgniter\Database\BaseBuilder->get()
- 6 APPPATH\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
- 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->get_state()
- 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
- 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-04 18:23:20 --> mysqli_sql_exception: Unknown column 'all_states*' in 'field list' in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_sta...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_sta...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_sta...')
-#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_sta...', Array, false)
-#4 C:\xampp\htdocs\mojmain\app\Models\BasicModel.php(74): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\mojmain\app\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->get_state()
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
-#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-CRITICAL - 2024-05-04 18:23:20 --> Unknown column 'all_states*' in 'field list'
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `all_states*`
-FROM `all_states`', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `all_states*`
-FROM `all_states`')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `all_states*`
-FROM `all_states`')
- 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `all_states*`
-FROM `all_states`', [], false)
- 5 APPPATH\Models\BasicModel.php(74): CodeIgniter\Database\BaseBuilder->get()
- 6 APPPATH\Controllers\Basic.php(31): App\Models\BasicModel->all_state()
- 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->get_state()
- 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
- 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-04 18:37:17 --> mysqli_sql_exception: Table 'user_education' already exists in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
-#3 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
-#4 C:\xampp\htdocs\mojmain\app\Database\Migrations\2024-04-29-094636_CreateUserEducationTable.php(44): CodeIgniter\Database\Forge->createTable('user_education')
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersEducationTable->up()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
-#8 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
-#10 C:\xampp\htdocs\mojmain\spark(97): CodeIgniter\CLI\Console->run()
-#11 {main}
-CRITICAL - 2024-05-04 20:10:32 --> Too few arguments to function App\Controllers\Job_pref::sub_show(), 0 passed in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
-in APPPATH\Controllers\Job_pref.php on line 92.
- 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->sub_show()
- 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-CRITICAL - 2024-05-04 20:12:09 --> Too few arguments to function App\Controllers\Job_pref::sub_show(), 0 passed in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
-in APPPATH\Controllers\Job_pref.php on line 91.
- 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->sub_show()
- 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-CRITICAL - 2024-05-04 20:55:58 --> Undefined array key "user_id"
-in APPPATH\Models\Job_prefModel.php on line 229.
- 1 APPPATH\Models\Job_prefModel.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\htdocs\\mojmain\\app\\Models\\Job_prefModel.php', 229)
- 2 APPPATH\Controllers\Job_pref.php(195): App\Models\Job_prefModel->user_save([...])
- 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->user_save()
- 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-CRITICAL - 2024-05-04 20:57:38 --> Call to undefined method App\Models\Job_prefModel::getuser_job
-in SYSTEMPATH\Model.php on line 838.
- 1 APPPATH\Controllers\Job_pref.php(177): CodeIgniter\Model->__call('getuser_job', [])
- 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->user_get()
- 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+CRITICAL - 2024-05-04 14:58:04 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(114): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-04 14:58:42 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(114): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-04 14:58:58 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(114): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,23 @@
+ERROR - 2024-06-01 21:16:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`user_education`, CONSTRAINT `user_education_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(718): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Users.php(405): App\Models\UserModel->save_edu()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Users->education()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 21:16:20 --> Cannot add or update a child row: a foreign key constraint fails (`webuser_moj`.`user_education`, CONSTRAINT `user_education_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Users.php(405): App\Models\UserModel->save_edu()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->education()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

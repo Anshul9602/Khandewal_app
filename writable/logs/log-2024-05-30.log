@@ -1,0 +1,195 @@
+CRITICAL - 2024-05-30 09:11:27 --> User does not exist for specified user id
+in APPPATH/Models/UserModel.php on line 258.
+ 1 APPPATH/Controllers/Users.php(38): App\Models\UserModel->findUserById()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 18:08:55 --> Undefined array key "location"
+in APPPATH/Models/UserModel.php on line 438.
+ 1 APPPATH/Models/UserModel.php(438): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 18:11:44 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 18:11:44 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 18:15:33 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 18:15:33 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 18:38:49 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 18:38:49 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 18:39:08 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 18:39:08 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:15:22 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 18:48:43 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 18:48:43 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:20:23 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:20:30 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:21:05 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:25:36 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:25:42 --> Undefined variable $foruid
+in APPPATH/Controllers/Auth.php on line 223.
+ 1 APPPATH/Controllers/Auth.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 19:01:22 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 19:01:22 --> Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(458): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(218): App\Models\UserModel->save_hprofile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -7,7 +7,9 @@ use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
+use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\Filters\SecureHeaders;
+use CodeIgniter\HTTP\ResponseInterface;
 use App\Filters\Cors;
 class Filters extends BaseConfig
 {
@@ -15,7 +17,25 @@ class Filters extends BaseConfig
      * Configures aliases for Filter classes to
      * make reading things nicer and simpler.
      */
+    public function before(RequestInterface $request, $arguments = null)
+    {
+       
 
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: X-API-KEY, Origin,X-Requested-With, Content-Type, Accept, Access-Control-Requested-Method, Authorization");
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PATCH, PUT, DELETE");
+
+        $method = $_SERVER['REQUEST_METHOD'];
+
+        if($method == "OPTIONS") {
+            die();
+        }
+    }
+
+    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
+    {
+        //
+    }
     public array $aliases = [
         'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
@@ -23,7 +43,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'cors' => Cors::class, 
-        // 'auth' =>  \App\Filters\JWTAuthenticationFilter::class // add this line
+        'auth' =>  \App\Filters\JWTAuthenticationFilter::class // add this line
     ];
 
     /**
@@ -67,7 +87,7 @@ class Filters extends BaseConfig
     public array $filters = [
         'auth' => [
             'before' => [
-                // 'job/*',
+                 'jobsss/*',
                 // 'users/*',
                 // 'job',
                 // 'auth/user_update/',
@@ -81,3 +101,4 @@ class Filters extends BaseConfig
         ]
     ];
 }
+

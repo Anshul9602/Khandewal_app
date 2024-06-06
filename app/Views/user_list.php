@@ -326,16 +326,6 @@ display: none;
 								<?php endforeach; ?>
 								
 						</table>
-						<script>
-							document.getElementById("editForm").addEventListener("submit", function(event) {
-								var inputs = this.getElementsByTagName("input");
-								for (var i = 0; i < inputs.length; i++) {
-									if (inputs[i].value === "") {
-										inputs[i].value = null;
-									}
-								}
-							});
-							</script>
 						<?php else : ?>
 								<p>User not found</p>
 							<?php endif; ?>

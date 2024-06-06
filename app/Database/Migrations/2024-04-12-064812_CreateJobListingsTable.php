@@ -51,13 +51,11 @@ class CreateJobListingsTable extends Migration
                 'null' => true,
             ],
             'created_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'updated_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'status' => [

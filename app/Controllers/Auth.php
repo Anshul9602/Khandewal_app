@@ -280,7 +280,7 @@ class Auth extends BaseController
             $input = $this->getRequestInput($this->request);
 
             $id = $input['user_id'];
-            $required_fields = ['user_id', 'name', 'state', 'city'];
+            $required_fields = ['user_id', 'name', 'last_name', 'gender', 'email', 'state', 'city', 'country', 'created_at'];
             foreach ($required_fields as $field) {
                 if (!isset($input[$field]) || empty($input[$field])) {
                     return "Error: Missing required field '$field'";
@@ -306,7 +306,7 @@ class Auth extends BaseController
             );
         }
     }
-    
+   
     public function user_update_web()
     {
 
@@ -315,7 +315,7 @@ class Auth extends BaseController
 
             $input = $this->getRequestInput($this->request);
             $id = $input['user_id'];
-            $required_fields = ['user_id', 'name', 'state', 'city', 'country'];
+            $required_fields = ['user_id', 'name', 'last_name', 'gender', 'email', 'state', 'city', 'country', 'created_at'];
             foreach ($required_fields as $field) {
                 if (!isset($input[$field]) || empty($input[$field])) {
                     return "Error: Missing required field '$field'";
@@ -340,10 +340,9 @@ class Auth extends BaseController
 
             $user = $model->findUserByUserNumber($mobile_Number);
             $userd = $model->getUserData($user['id']);
-         
-            $model11 = new JobModel();
-
           
+    
+
             helper('jwt');
 
             return $this

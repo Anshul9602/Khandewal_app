@@ -177,3 +177,4 @@ class ProfileModel extends Model
         return $post;
     }
 }
+

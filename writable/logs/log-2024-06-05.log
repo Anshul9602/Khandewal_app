@@ -1,0 +1,53 @@
+CRITICAL - 2024-06-05 05:08:01 --> User does not exist for specified user id
+in APPPATH/Models/UserModel.php on line 276.
+ 1 APPPATH/Controllers/Users.php(41): App\Models\UserModel->findUserById()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:08:01 --> User does not exist for specified user id
+in APPPATH/Models/UserModel.php on line 276.
+ 1 APPPATH/Controllers/Users.php(41): App\Models\UserModel->findUserById()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:08:01 --> User does not exist for specified user id
+in APPPATH/Models/UserModel.php on line 276.
+ 1 APPPATH/Controllers/Users.php(41): App\Models\UserModel->findUserById()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 05:08:01 --> User does not exist for specified user id
+in APPPATH/Models/UserModel.php on line 276.
+ 1 APPPATH/Controllers/Users.php(41): App\Models\UserModel->findUserById()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->get_user()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-05 08:13:51 --> mysqli_sql_exception: Unknown column 'user_profile_images*' in 'field list' in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/JobApplyModel.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Job_Apply.php(136): App\Models\JobApplyModel->getJob_userData()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Job_Apply->show_user()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-05 08:13:51 --> Unknown column 'user_profile_images*' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/JobApplyModel.php(90): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Job_Apply.php(136): App\Models\JobApplyModel->getJob_userData()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Job_Apply->show_user()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

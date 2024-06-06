@@ -28,13 +28,11 @@ class CreateJobApplicationsTable extends Migration
                 'null' => true,
             ],
             'created_at' => [
-                'type' => 'VARCHAR',
-            'constraint' => 255,
-            'null' => true,
+                'type' => 'DATETIME',
+                'null' => true,
             ],
             'updated_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
         ]);

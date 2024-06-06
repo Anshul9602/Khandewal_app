@@ -43,8 +43,7 @@ class UserModel extends Model
     {
         return password_hash($plaintextPassword, PASSWORD_BCRYPT);
     }
-   
-
+  
     /// get user information
     public function getUserData($userId)
     {
@@ -64,7 +63,7 @@ class UserModel extends Model
             return $user[0];
         }
     }
- 
+
     public function getAllUserData()
     {
         $builder = $this->db->table('users');
@@ -93,8 +92,7 @@ class UserModel extends Model
 
         return $result->user_count;
     }
-   
-
+  
 
 
 
@@ -223,22 +221,17 @@ class UserModel extends Model
 
         $user_id = $data['user_id'];
         $name = $data['name'];
-  
-      
-        
         $address = $data['address'];
-  
-    
-
+       
         $state = $data['state'];
         $city = $data['city'];
-   
+     
         $date = new DateTime();
         $date = date_default_timezone_set('Asia/Kolkata');
         $date1 = date("m-d-Y h:i A");
 
 
-        $sql = "INSERT INTO `user_profiles`( `user_id`, `name`,`address`, `state`, `city`,  `created_at`, `updated_at`) VALUES ('$user_id','$name','$address','$state','$city','$date1','$date1')";
+        $sql = "INSERT INTO `user_profiles`( `user_id`, `name`,`address`, `state`, `city`, `created_at`, `updated_at`) VALUES ('$user_id','$name','$address','$state','$city','$date1','$date1')";
 
 
         $post = $this->db->query($sql);
@@ -254,16 +247,17 @@ class UserModel extends Model
         //    echo json_encode($sql);
         $user_id = $id;
         $name = $data['name'];
-        
         $address = $data['address'];
         $state = $data['state'];
         $city = $data['city'];
+        $created_at = $data['created_at'];
         $date = new DateTime();
         $date = date_default_timezone_set('Asia/Kolkata');
         $date1 = date("m-d-Y h:i A");
 
-        $sql = "UPDATE `user_profiles` SET 
-        `address` = '$address', `name`='$name',`state`='$state',`city`='$city',`updated_at`='$date1' WHERE user_id = $user_id";
+        $sql = "UPDATE `user_profiles` SET   `address` = '$address',
+       
+        `name`='$name',`state`='$state',`city`='$city',`created_at`='$created_at',`updated_at`='$date1' WHERE user_id = $user_id";
         // echo json_encode($sql);
         // echo ( $sql);
         //     die();
@@ -317,9 +311,6 @@ class UserModel extends Model
             return $post;
         }
     }
-
-
-    // user delete
 
     public function delete_usweb($id)
     {

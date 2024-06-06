@@ -1,352 +1,104 @@
-ERROR - 2024-05-05 01:33:08 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+CRITICAL - 2024-05-05 12:27:33 --> Undefined array key "address"
+in APPPATH/Models/UserModel.php on line 290.
+ 1 APPPATH/Models/UserModel.php(290): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Auth.php(249): App\Models\UserModel->save_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-05 13:24:07 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
 Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jo...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(148): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(57): App\Models\Job_prefModel->save(Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->save()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 01:33:08 --> Column count doesn't match value count at row 1
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:33:08\',\'2024-05-05 01:33:08\')', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:33:08\',\'2024-05-05 01:33:08\')')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:33:08\',\'2024-05-05 01:33:08\')')
- 4 APPPATH\Models\Job_prefModel.php(148): CodeIgniter\Database\BaseConnection->query('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:33:08\',\'2024-05-05 01:33:08\')')
- 5 APPPATH\Controllers\Job_pref.php(57): App\Models\Job_prefModel->save([...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->save()
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 01:34:24 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jo...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(148): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(57): App\Models\Job_prefModel->save(Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->save()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 01:34:24 --> Column count doesn't match value count at row 1
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:34:24\',\'2024-05-05 01:34:24\')', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:34:24\',\'2024-05-05 01:34:24\')')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:34:24\',\'2024-05-05 01:34:24\')')
- 4 APPPATH\Models\Job_prefModel.php(148): CodeIgniter\Database\BaseConnection->query('INSERT INTO `job_pref`( `department`, `sub_department`, `created_at`, `updated_at`) VALUES (\'front office\',\'Manager\'\'2024-05-05 01:34:24\',\'2024-05-05 01:34:24\')')
- 5 APPPATH\Controllers\Job_pref.php(57): App\Models\Job_prefModel->save([...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->save()
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 01:46:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:46:22'
-          WHERE id = 1' at line 4 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pre...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pre...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pre...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pre...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 01:46:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:46:22'
-          WHERE id = 1' at line 4
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:22\'
-          WHERE id = 1', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:22\'
-          WHERE id = 1')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:22\'
-          WHERE id = 1')
- 4 APPPATH\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:22\'
-          WHERE id = 1')
- 5 APPPATH\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', [...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 01:46:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:46:48'
-          WHERE id = 1' at line 4 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pre...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pre...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pre...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pre...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 01:46:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:46:48'
-          WHERE id = 1' at line 4
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:48\'
-          WHERE id = 1', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:48\'
-          WHERE id = 1')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:48\'
-          WHERE id = 1')
- 4 APPPATH\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:46:48\'
-          WHERE id = 1')
- 5 APPPATH\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', [...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 01:47:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:47:24'
-          WHERE id = 1' at line 4 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pre...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pre...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pre...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pre...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 01:47:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'maker,
-        updated_at = '2024-05-05 01:47:24'
-          WHERE id = 1' at line 4
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:47:24\'
-          WHERE id = 1', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:47:24\'
-          WHERE id = 1')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:47:24\'
-          WHERE id = 1')
- 4 APPPATH\Models\Job_prefModel.php(184): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pref` SET  
-        
-        `department` = Kitchen,
-        `sub_department` = juice maker,
-        updated_at = \'2024-05-05 01:47:24\'
-          WHERE id = 1')
- 5 APPPATH\Controllers\Job_pref.php(122): App\Models\Job_prefModel->update1('1', [...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->update('1')
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 02:31:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1000-10000',
-        updated_at = '2024-05-05 02:31:11'
-          WHERE id = 1' at line 8 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pre...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pre...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pre...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(313): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pre...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(259): App\Models\Job_prefModel->user_update1('1', Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->user_update('1')
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 02:31:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1000-10000',
-        updated_at = '2024-05-05 02:31:11'
-          WHERE id = 1' at line 8
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:31:11\'
-          WHERE id = 1', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:31:11\'
-          WHERE id = 1')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:31:11\'
-          WHERE id = 1')
- 4 APPPATH\Models\Job_prefModel.php(313): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:31:11\'
-          WHERE id = 1')
- 5 APPPATH\Controllers\Job_pref.php(259): App\Models\Job_prefModel->user_update1('1', [...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->user_update('1')
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 02:32:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1000-10000',
-        updated_at = '2024-05-05 02:32:16'
-          WHERE id = 1' at line 8 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pre...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pre...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pre...')
-#3 C:\xampp\htdocs\mojmain\app\Models\Job_prefModel.php(313): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pre...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Job_pref.php(259): App\Models\Job_prefModel->user_update1('1', Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Job_pref->user_update('1')
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 02:32:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1000-10000',
-        updated_at = '2024-05-05 02:32:16'
-          WHERE id = 1' at line 8
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:32:16\'
-          WHERE id = 1', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:32:16\'
-          WHERE id = 1')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:32:16\'
-          WHERE id = 1')
- 4 APPPATH\Models\Job_prefModel.php(313): CodeIgniter\Database\BaseConnection->query('UPDATE `job_pref_user` SET  
-        
-        
-        `department` = \'Kitchen\',
-        `job_type` =\'test 1\',
-        `pref_state` = \'raj\',
-        `pref_city` = \'sik\',
-        `salery` = \'\'1000-10000\',
-        updated_at = \'2024-05-05 02:32:16\'
-          WHERE id = 1')
- 5 APPPATH\Controllers\Job_pref.php(259): App\Models\Job_prefModel->user_update1('1', [...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Job_pref->user_update('1')
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job_pref))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
-ERROR - 2024-05-05 13:29:21 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
-Stack trace:
-#0 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
-#1 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
-#2 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
-#3 C:\xampp\htdocs\mojmain\app\Models\UserModel.php(306): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
-#4 C:\xampp\htdocs\mojmain\app\Controllers\Auth.php(249): App\Models\UserModel->save_profile(Array)
-#5 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->register()
-#6 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
-#7 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#8 C:\xampp\htdocs\mojmain\public\index.php(67): CodeIgniter\CodeIgniter->run()
-#9 C:\xampp\htdocs\mojmain\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
-#10 {main}
-CRITICAL - 2024-05-05 13:29:21 --> Column count doesn't match value count at row 1
-in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
- 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user_profiles`( `user_id`, `name`,`last_name`,`gender`,`address`,`pin_code`,`dob`, `email`,`role`, `state`, `city`, `country`, `created_at`, `updated_at`) VALUES (\'3\',\'anshul\',\'kumar\',\'gender\',\'test test\',\'332406\',\'test@gmail.com\',\'y\',\'raj\',\'sfdg\',\'xvfgd\',\'05-05-2024 01:29 PM\',\'05-05-2024 01:29 PM\')', 0)
- 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_profiles`( `user_id`, `name`,`last_name`,`gender`,`address`,`pin_code`,`dob`, `email`,`role`, `state`, `city`, `country`, `created_at`, `updated_at`) VALUES (\'3\',\'anshul\',\'kumar\',\'gender\',\'test test\',\'332406\',\'test@gmail.com\',\'y\',\'raj\',\'sfdg\',\'xvfgd\',\'05-05-2024 01:29 PM\',\'05-05-2024 01:29 PM\')')
- 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_profiles`( `user_id`, `name`,`last_name`,`gender`,`address`,`pin_code`,`dob`, `email`,`role`, `state`, `city`, `country`, `created_at`, `updated_at`) VALUES (\'3\',\'anshul\',\'kumar\',\'gender\',\'test test\',\'332406\',\'test@gmail.com\',\'y\',\'raj\',\'sfdg\',\'xvfgd\',\'05-05-2024 01:29 PM\',\'05-05-2024 01:29 PM\')')
- 4 APPPATH\Models\UserModel.php(306): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_profiles`( `user_id`, `name`,`last_name`,`gender`,`address`,`pin_code`,`dob`, `email`,`role`, `state`, `city`, `country`, `created_at`, `updated_at`) VALUES (\'3\',\'anshul\',\'kumar\',\'gender\',\'test test\',\'332406\',\'test@gmail.com\',\'y\',\'raj\',\'sfdg\',\'xvfgd\',\'05-05-2024 01:29 PM\',\'05-05-2024 01:29 PM\')')
- 5 APPPATH\Controllers\Auth.php(249): App\Models\UserModel->save_profile([...])
- 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
- 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
- 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mojmain\\public\\index.php')
+#0 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Models/UserModel.php(306): CodeIgniter\Database\BaseConnection->query()
+#4 /home/webuser/web/dashboard.masterofjobs.in/public_html/app/Controllers/Auth.php(249): App\Models\UserModel->save_profile()
+#5 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Auth->register()
+#6 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#7 /home/webuser/web/dashboard.masterofjobs.in/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/webuser/web/dashboard.masterofjobs.in/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 13:24:07 --> Column count doesn't match value count at row 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/UserModel.php(306): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Auth.php(249): App\Models\UserModel->save_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Auth->register()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 08:10:21 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 08:12:04 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 08:39:06 --> Undefined array key "ref_mobile"
+in APPPATH/Controllers/Users.php on line 52.
+ 1 APPPATH/Controllers/Users.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Users->work_ex()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 11:37:56 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 11:44:22 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 11:44:34 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-05 13:02:43 --> Undefined variable $json_user
+in APPPATH/Views/user_list.php on line 256.
+ 1 APPPATH/Views/user_list.php(256): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/webuser/web/dashboard.masterofjobs.in/public_html/app/Views/user_list.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(117): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->user_list()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

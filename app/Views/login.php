@@ -18,7 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- PAGE TITLE HERE -->
-	<title>MojAdmin</title>
+	<title>Admin</title>
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -38,7 +38,7 @@
 				<div class="account-info-area" style="background-image: url(images/rainbow.gif)">
 					<div class="login-content">
 						<p class="sub-title">Log in to your admin dashboard with your credentials</p>
-						<h1 class="title">Master Of Jobs</h1>
+					<img src="images/logo.png" alt="" style="max-width:150px;width:100%;">
 						
 					</div>
 				</div>

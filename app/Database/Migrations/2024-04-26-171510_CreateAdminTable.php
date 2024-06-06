@@ -25,13 +25,11 @@ class CreateAdminTable extends Migration
             ],
             
             'created_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'updated_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
            

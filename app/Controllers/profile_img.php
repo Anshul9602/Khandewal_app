@@ -107,25 +107,25 @@ class profile_img extends BaseController
             } else {
                 $post = $model->update1($data);
             }
-            // for image path
-            $id = $input['user_id'];
-            $post = $model->findByUId($id);
-            $data['user_id'] = $id;
-            $baseUrl = base_url(); // Assuming you have configured the base URL in your CodeIgniter configuration
-            $baseUrl = str_replace('/public/', '/', $baseUrl);
+// for image path
+$id = $input['user_id'];
+$post = $model->findByUId($id);
+$data['user_id'] = $id;
+$baseUrl = base_url(); // Assuming you have configured the base URL in your CodeIgniter configuration
+$baseUrl = str_replace('/public/', '/', $baseUrl);
+
+    
+    $resume1 = $post['image_path'];
+    
+    $existingFilePath = WRITEPATH . $resume1;
+
+    if (file_exists($existingFilePath)) {
 
 
-            $resume1 = $post['image_path'];
-
-            $existingFilePath = WRITEPATH . $resume1;
-
-            if (file_exists($existingFilePath)) {
-
-
-                $data['image_path'] = $baseUrl . 'writable' . $resume1;
-            } else {
-                $data['image_path'] = $baseUrl . 'images/user_img.png';
-            }
+        $data['image_path'] = $baseUrl . 'writable' . $resume1;
+    } else {
+        $data['image_path'] = $baseUrl . 'images/user_img.png';
+    }
 
 
 
@@ -172,19 +172,19 @@ class profile_img extends BaseController
             $data['user_id'] = $id;
             $baseUrl = base_url(); // Assuming you have configured the base URL in your CodeIgniter configuration
             $baseUrl = str_replace('/public/', '/', $baseUrl);
+          
+                
+                $resume1 = $post['image_path'];
+                
+                $existingFilePath = WRITEPATH . $resume1;
+
+                if (file_exists($existingFilePath)) {
 
 
-            $resume1 = $post['image_path'];
-
-            $existingFilePath = WRITEPATH . $resume1;
-
-            if (file_exists($existingFilePath)) {
-
-
-                $data['image_path'] = $baseUrl . 'writable' . $resume1;
-            } else {
-                $data['image_path'] = $baseUrl . 'images/user_img.png';
-            }
+                    $data['image_path'] = $baseUrl . 'writable' . $resume1;
+                } else {
+                    $data['image_path'] = $baseUrl . 'images/user_img.png';
+                }
 
 
 
@@ -199,14 +199,14 @@ class profile_img extends BaseController
         } catch (Exception $e) {
 
             $baseUrl = base_url(); // Assuming you have configured the base URL in your CodeIgniter configuration
-            $data['image_path'] =  $baseUrl . 'images/user_img.png';
+           $data['image_path'] =  $baseUrl . 'images/user_img.png';
             return $this->getResponse(
                 [
                     'message' => 'Could not find profile image for specified ID',
                     'img' =>  $data,
                     'status' => 'success',
                 ],
-
+                
             );
         }
     }
@@ -216,13 +216,13 @@ class profile_img extends BaseController
     {
         try {
             $model = new ProfileModel();
-
+       
             $existingResume = $model->findByUId($id);
             // echo "test";
             // die();
             if ($existingResume == null) {
                 // If there's no existing resume, create a new folder for the user
-
+               
             } else {
                 $existingFilePath = WRITEPATH . $existingResume['image_path'];
                 //     If there's an existing resume, delete the previous file and folder
@@ -252,3 +252,4 @@ class profile_img extends BaseController
         }
     }
 }
+

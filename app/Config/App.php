@@ -18,7 +18,7 @@ class App extends BaseConfig
      *    http://example.com/
      */
     public string $baseURL = 'http://localhost:8080/';
-    // public string $baseURL = 'https://simplygrateful.me/api/';
+    // public string $baseURL = 'https://dashboard.masterofjobs.in/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -44,7 +44,7 @@ class App extends BaseConfig
      * variable so that it is blank.
      */
     public string $indexPage = '';
-  
+
     /**
      * --------------------------------------------------------------------------
      * URI PROTOCOL

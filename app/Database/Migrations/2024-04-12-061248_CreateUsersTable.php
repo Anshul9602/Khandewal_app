@@ -21,18 +21,15 @@ class CreateUsersTable extends Migration
             ],
             
             'created_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'updated_at' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'last_active' => [
-                'type' => 'VARCHAR',
-                'constraint' => 255,
+                'type' => 'DATETIME',
                 'null' => true,
             ],
             'points' => [
