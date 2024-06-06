@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use App\Models\AdminModel;
+use App\Models\PriceModel;
 
 use CodeIgniter\HTTP\Response;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -46,18 +47,36 @@ class Home extends BaseController
             return redirect()->to('/');
         }
 
-        $model = new UserModel();
+        $model = new PriceModel();
 
-        $data['users'] = $model->getAllUserData();
-        //    print_r($data['users'][0]);
-        //     die();
+        $data['users'] = $model->findAll();
+        //    print_r($data['users']);
+        //   die();
         // echo "test";
-        // die();
+    
         echo view('header');
-        echo view('Hotel_list',$data);
+        echo view('Hotel_list', $data);
         echo view('footer');
     }
-   
+    public function update_price()
+    {
+        $model = new PriceModel();
+        $input = $this->getRequestInput($this->request);
+        $id = $input['id'];
+    
+        $data = $model->update1($id, $input);
+    
+        if ($data == null) {
+            // Set a flashdata message for error
+            $this->session->setFlashdata('error', 'Failed to update price.');
+        } else {
+            // Set a flashdata message for success
+            $this->session->setFlashdata('success', 'price updated successfully.');
+        }
+    
+        // Redirect to the price list
+        return redirect()->to('price-list');
+    }
     public function user_list()
     {
         $isLoggedIn = $this->session->get('login');

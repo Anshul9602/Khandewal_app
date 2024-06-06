@@ -159,7 +159,7 @@ display: none;
 					</div>
 					<div class="card-body">
 						<?php if (!$users == null) :
-
+$json_user = json_encode($users);
 							?>
 						<table id="example" class="display " style="background-color: #fff;">
 							<thead>
@@ -178,7 +178,7 @@ display: none;
 
 							<tbody>
 								<?php foreach ($users as $user) :
-								$json_user = json_encode($user);
+								
 								?>
 
 								<tr>
@@ -191,18 +191,16 @@ display: none;
 									</td>
 									<td>
 										<?= $user->name ?>
-										<?= $user->last_name ?>
+										
 									</td>
 									<td>
 										<strong>Phone : </strong>
 										<?= $user->mobile_number ?><br>
-										<strong>Email : </strong>
-										<?= $user->email ?>
+									
 
 									</td>
 									<td>
-										<strong>Country : </strong>
-										<?= $user->country ?><br>
+										
 										<strong>State : </strong>
 										<?= $user->state ?><br>
 										<strong>City : </strong>
@@ -241,60 +239,13 @@ display: none;
 									});
 								</script>
 								<script>
-									function toggleLock(userId) {
-										// Assume there's a variable to keep track of the user's lock status
-										var isLocked = true; // For example, initially locked
 								
-										// Toggle lock status
-										isLocked = !isLocked;
-								
-										// Change button icon based on lock status
-										var lockButton = document.querySelector('.btn-lock i');
-										if (isLocked) {
-											lockButton.classList.remove('fa-unlock');
-											lockButton.classList.add('fa-lock');
-											// Call API to lock the user
-											fetch(`/users/status_d/${userId}`, { // Construct the API URL with user ID
-												method: 'POST',
-												headers: {
-													'Content-Type': 'application/json'
-												},
-												body: JSON.stringify({
-													status: 'locked' // You may want to send the status as well
-												})
-											})
-												.then(response => {
-													// Handle response if needed
-												})
-												.catch(error => {
-													console.error('Error locking user:', error);
-												});
-										} else {
-											lockButton.classList.remove('fa-lock');
-											lockButton.classList.add('fa-unlock');
-											// Call API to unlock the user
-											fetch(`/users/status_e/${userId}`, { // Construct the API URL with user ID
-												method: 'POST',
-												headers: {
-													'Content-Type': 'application/json'
-												},
-												body: JSON.stringify({
-													status: 'unlocked' // You may want to send the status as well
-												})
-											})
-												.then(response => {
-													// Handle response if needed
-												})
-												.catch(error => {
-													console.error('Error unlocking user:', error);
-												});
-										}
-								
-										// You can add more logic here as needed
-									}
 									function openPopup(userId) {
 										document.getElementById("editPopup").style.display = "block";
 										document.getElementById("user_id").value = userId;
+
+// console.log(userId);
+
 										populateFormFields(userId);
 									}
 								
@@ -306,20 +257,22 @@ display: none;
 									function populateFormFields(userId) {
 										// Here, you can use AJAX to fetch user data based on the user ID and populate the form fields
 										// For now, I'll assume that $user is already defined and contains the user data
-								
-										var user = <?= $json_user ?>;
-								
+								// console.log(userId);
+										var user1 = <?= $json_user ?>;
+                                        // console.log(user1);
+                                  const data = user1.filter((el,index)=>{
+                                
+                                    return parseInt(el.user_id) === userId
+                                })
+                                 var user = data[0];
+
 										// Populate the form fields with user data
 										document.getElementById("name").value = user.name;
-										document.getElementById("created_at").value = user.created_at;
-										document.getElementById("last_name").value = user.last_name;
+															
 										document.getElementById("mobile_number").value = user.mobile_number;
-										document.getElementById("email").value = user.email;
-										document.getElementById("gender").value = user.gender;
-										document.getElementById("country").value = user.country;
 										document.getElementById("state").value = user.state;
 										document.getElementById("city").value = user.city;
-										document.getElementById("role").value = user.role;
+										
 										// Add more lines to populate other form fields
 									}
 								</script>
