@@ -56,7 +56,7 @@
             Nav header start
         ***********************************-->
         <div class="nav-header">
-            <a href="<?= base_url('home') ?>" class="brand-logo">
+            <a href="<?= base_url('user-list') ?>" class="brand-logo">
                 <img class="logo-abbr" src="images/logo.png" alt="" width="100%">
                 <img class="logo-compact" src="./images/logo-text-white.png" alt="">
                 

@@ -29,13 +29,18 @@ class Home extends BaseController
         // You can add any other logic here if needed
 
         $model = new UserModel();
-        $data['userCount'] = $model->getUserCount();
+
         $data['users'] = $model->getAllUserData();
-
-
-
+        //    print_r($data['users'][0]);
+        //     die();
+        // echo "test";
+        // die();
         echo view('header');
-        echo view('welcome_message', $data);
+
+        // Load main view with data
+        echo view('user_list', $data);
+
+        // Load footer view
         echo view('footer');
     }
     public function hotel_list()
