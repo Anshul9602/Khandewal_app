@@ -44,11 +44,6 @@ class PriceModel extends Model
         return password_hash($plaintextPassword, PASSWORD_BCRYPT);
     }
     
-
-   
-
-
-    
     public function findpriceById(string $id)
     {
 
