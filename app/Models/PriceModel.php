@@ -49,7 +49,7 @@ class PriceModel extends Model
 
 
     
-    public function findJobById(string $id)
+    public function findpriceById(string $id)
     {
 
         $user = $this
@@ -58,7 +58,7 @@ class PriceModel extends Model
             ->first();
 
         if (!$user) {
-            throw new Exception('Job does not found');
+            throw new Exception('price does not found');
         } else {
             return $user;
         }

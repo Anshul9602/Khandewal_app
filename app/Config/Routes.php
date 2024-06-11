@@ -45,14 +45,15 @@ $routes->post('/update_price', 'Home::update_price');
 
 
 $routes->get('/get_user/(:num)', 'Users::get_user/$1');
+
 $routes->get('/get_user_mobile/(:num)', 'Users::get_user_mobile/$1');
 $routes->post('/auth/number_check', 'Auth::check_mobile');
-$routes->post('/auth/work_up/(:num)', 'Users::work_ex_up/$1');
+
 $routes->post('/users/work_exp', 'Users::work_ex');
 $routes->post('/auth/verify_otp/(:num)', 'Auth::verifyOTP/$1');
 $routes->post('/auth/register', 'Auth::register');
 $routes->post('/auth/user_update','Auth::user_update');
-$routes->post('/auth/hotelior_update','Auth::Huser_update');
+$routes->get('/get_price', 'Price::index'); /// price
 
 $routes->get('user_delete/(:num)','Users::user_del/$1');
 
