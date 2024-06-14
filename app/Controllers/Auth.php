@@ -180,7 +180,7 @@ class Auth extends BaseController
         $input = $this->getRequestInput($this->request);
         // echo "<pre>"; print_r($input); echo "</pre>";
         // die();
-        $required_fields = ['mobile_number', 'role'];
+        $required_fields = ['mobile_number'];
         foreach ($required_fields as $field) {
             if (!isset($input[$field]) || empty($input[$field])) {
                 return "Error: Missing required field '$field'";
@@ -280,7 +280,7 @@ class Auth extends BaseController
             $input = $this->getRequestInput($this->request);
 
             $id = $input['user_id'];
-            $required_fields = ['user_id', 'name', 'last_name', 'gender', 'email', 'state', 'city', 'country', 'created_at'];
+            $required_fields = ['user_id', 'name','state', 'city'];
             foreach ($required_fields as $field) {
                 if (!isset($input[$field]) || empty($input[$field])) {
                     return "Error: Missing required field '$field'";
