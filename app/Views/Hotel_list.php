@@ -81,10 +81,7 @@
                             <div class="col-md-5">
                                 <div class="col-md-12"><label for="mobile_number">Update Date</label></div>
                                 <input type="text" id="update_date" name="update_date" value style="      padding: 10px;  width: 100%;">
-                            </div>
-                          
-                            >
-                            
+                            </div>                            
                         </div>
                         <div class="btn d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">Save</button>
