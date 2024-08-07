@@ -250,14 +250,14 @@ class UserModel extends Model
         $address = $data['address'];
         $state = $data['state'];
         $city = $data['city'];
-        $created_at = $data['created_at'];
+     
         $date = new DateTime();
         $date = date_default_timezone_set('Asia/Kolkata');
         $date1 = date("m-d-Y h:i A");
 
         $sql = "UPDATE `user_profiles` SET   `address` = '$address',
        
-        `name`='$name',`state`='$state',`city`='$city',`created_at`='$created_at',`updated_at`='$date1' WHERE user_id = $user_id";
+        `name`='$name',`state`='$state',`city`='$city',`updated_at`='$date1' WHERE user_id = $user_id";
         // echo json_encode($sql);
         // echo ( $sql);
         //     die();
